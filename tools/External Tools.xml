@@ -1,7 +1,7 @@
 <toolSet name="External Tools">
-  <tool name="CSScomb" description="Run CSScomb" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="CSScomb" description="Run CSScomb" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/.nodebrew/current/bin/csscomb" />
+      <option name="COMMAND" value="~/.nodebrew/current/bin/csscomb" />
       <option name="PARAMETERS" value="$FilePath$ -t" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
