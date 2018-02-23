@@ -6,11 +6,11 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="node" description="Run Node.js " showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="env" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/.nodebrew/current/bin/node" />
-      <option name="PARAMETERS" value="-v" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <option name="COMMAND" value="env" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
