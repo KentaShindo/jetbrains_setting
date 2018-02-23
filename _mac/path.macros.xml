@@ -1,6 +1,6 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="nodebrew" value="/Users/kenta/.nodebrew/node/v7.0.0/bin" />
+    <macro name="node" value="/Users/kenta/.nodebrew/node/v7.0.0/bin" />
     <ignoredMacro name="MESSAGE" />
     <ignoredMacro name="FILE_PATH" />
     <ignoredMacro name="LINE" />
