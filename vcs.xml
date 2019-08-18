@@ -6,6 +6,10 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="KentaShindo" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://uchidayoko.backlog.jp" />
+          <option name="userName" value="kenta@arcphilia.co.jp" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
